@@ -1,0 +1,140 @@
+.search-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.table-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.search-container {
+  max-width: 900px;
+  padding: 16px 0;
+}
+
+.search-card .ant-card-body {
+  padding-bottom: 4px;
+}
+
+/* 操作按钮样式 */
+.operation-buttons .ant-btn {
+  border-radius: 4px;
+  font-weight: 500;
+  padding: 0 12px;
+  height: 32px;
+}
+
+/* 新增按钮 - 绿色 */
+.add-btn {
+  background-color: #52c41a;
+  border-color: #52c41a;
+  color: white;
+}
+
+.add-btn:hover {
+  background-color: #73d13d;
+  border-color: #73d13d;
+}
+
+/* 编辑按钮 - 蓝色 */
+.edit-btn {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+/* 删除按钮 - 红色 */
+.delete-btn {
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #ff7875;
+  border-color: #ff7875;
+}
+
+/* 导入按钮 - 青色 */
+.import-btn {
+  background-color: #13c2c2;
+  border-color: #13c2c2;
+  color: white;
+}
+
+.import-btn:hover {
+  background-color: #36cfc9;
+  border-color: #36cfc9;
+}
+
+/* 导出按钮 - 橙色 */
+.export-btn {
+  background-color: #fa8c16;
+  border-color: #fa8c16;
+  color: white;
+}
+
+.export-btn:hover {
+  background-color: #ffa940;
+  border-color: #ffa940;
+}
+
+/* 搜索按钮 */
+.search-btn {
+  background-color: #52c41a;
+  border-color: #52c41a;
+  color: white;
+}
+
+.search-btn:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+/* 重置按钮 - 灰色 */
+.reset-btn {
+  background-color: orange;
+  border-color: orange;
+  color: #fff;
+}
+
+.reset-btn:hover {
+  background-color: #f5f5f5;
+  border-color: #40a9ff;
+  color: #40a9ff;
+}
+
+/* 表格操作按钮 */
+.table-operation-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.table-operation-buttons .ant-btn {
+  padding: 0 8px;
+  height: 24px;
+  font-size: 12px;
+}
+
+/* 更多操作按钮 */
+.more-btn {
+  background-color: #52c41a;
+  border-color: #52c41a;
+  color: white;
+}
+
+.more-btn:hover {
+  background-color: #73d13d;
+  border-color: #73d13d;
+}
+.status-switch {
+  background: var(--ant-cyan) !important;
+}

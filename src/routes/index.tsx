@@ -7,6 +7,7 @@ import type { RouteConfig } from '../config/routes';
 const componentMap: Record<string, React.LazyExoticComponent<() => React.JSX.Element>> = {
   './Welcome': lazy(() => import('../pages/Welcome')),
   './Dashboard': lazy(() => import('../pages/Dashboard')),
+  './Users': lazy(() => import('../pages/Users')),
 };
 
 /**
