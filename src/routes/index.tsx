@@ -8,6 +8,7 @@ const componentMap: Record<string, React.LazyExoticComponent<() => React.JSX.Ele
   './Welcome': lazy(() => import('../pages/Welcome')),
   './Dashboard': lazy(() => import('../pages/Dashboard')),
   './Users': lazy(() => import('../pages/Users')),
+  //增加注释，冲突专用
 };
 
 /**
