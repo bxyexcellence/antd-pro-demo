@@ -1,6 +1,7 @@
 import {
   HomeOutlined,
   DashboardOutlined,
+  UserOutlined,
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 
@@ -38,6 +39,12 @@ export const routes: RouteConfig[] = [
     name: '仪表盘',
     icon: DashboardOutlined,
     component: './Dashboard',
+  },
+  {
+    path: '/users',
+    name: '用户管理',
+    icon: UserOutlined,
+    component: './Users',
   },
 ];
 
